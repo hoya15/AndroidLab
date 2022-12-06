@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    버튼의 백그라운드로 지정하고자 하는 이미지. 둥근 사각형 이미지
+    간단한 도형 이미지는 xml로 지정한다.
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+</selector>
