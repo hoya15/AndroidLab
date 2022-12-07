@@ -1,34 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:textSize="60dp"/>
 
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="70dp"-->
-<!--        android:gravity="center_horizontal"-->
-<!--        android:orientation="horizontal"-->
-<!--        >-->
-<!--        -->
-<!--    </LinearLayout>-->
-    <Button
-        android:layout_width="100dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/round_button"
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="start"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="stop"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:enabled="false"/>
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="reset"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:enabled="false"/>
+    </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

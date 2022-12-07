@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.ch5_event'
+    namespace 'com.example.ch7_database'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.ch5_event"
+        applicationId "com.example.ch7_database"
         minSdk 21
         targetSdk 32
         versionCode 1

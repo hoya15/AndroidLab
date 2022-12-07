@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--버튼의 백그라운드로 지정하고자 하는 이미지.. 둥근 사각형 이미지..
+간단한 도형 이미지는 xml 로 정의한다..-->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:padding="10dp"
     android:shape="rectangle">
+    <solid android:color="#6666FF"/>
+    <corners
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"/>
 </shape>

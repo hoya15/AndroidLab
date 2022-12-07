@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
              노가다가 점점 심해짐
          */
         val textView1: TextView = findViewById(R.id.txtHeader)
+//        textView1.setTextSize()
         textView1.text = "234234234234 !!!"
 
         /*
