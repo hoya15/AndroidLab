@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat
+        app:key="a1"
+        app:title="setting1"
+        android:summaryOn="on summary"
+        android:summaryOff="off summary"
+        />
+    <EditTextPreference
+        app:key="id"
+        app:title="ID 설정"/>
+
+    <ListPreference
+        app:key="color"
+        app:title="color 선택"
+        android:entries="@array/my_color"
+        android:entryValues="@array/my_color_values"/>
+</PreferenceScreen>

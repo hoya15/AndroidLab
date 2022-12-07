@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    문자열 리소스 여러개를 등록..  한꺼번에 이용된다면.. 배열 리소스로...
+목록설정.. 화면 문자열... -->
+    <string-array name="my_color">
+        <item>빨강</item>
+        <item>파랑</item>
+        <item>초록</item>
+    </string-array>
+<!--    목록 설정 선택시 저장되는 값... 출력 문자열을 그대로 저장해도 되고.. -->
+    <string-array name="my_color_values">
+        <item>#FF0000</item>
+        <item>#0000FF</item>
+        <item>#00FF00</item>
+    </string-array>
+</resources>
