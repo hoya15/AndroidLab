@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ch9_androidx</string>
+    <string name="drawer_open">opened </string>
+    <string name="drawer_close">closed </string>
+</resources>

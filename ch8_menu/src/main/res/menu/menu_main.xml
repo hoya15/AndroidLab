@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    android 표준 mamespace는 http://schemas.android.com/apk/res/android 로..
+    비표준 속성은 http://schemas.android.com/apk/res-auto 로.. 별도 namespace 선언해서 사용해야..
+    이 속성을 처리하는 클래스가 platform api가 아니면 ..
+    showAsAction은 AppCompctActivity 에서 처리하는 속성이 된다. 표준이 아니다..
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu1"
+        android:title="menu1"/>
+    <item
+        android:id="@+id/menu2"
+        android:title="menu2"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"/>
+    <item android:id="@+id/menu3"
+        android:title="menu3"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+</menu>
