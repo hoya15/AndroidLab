@@ -11,6 +11,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ch11_notification" />
+            <option value="$PROJECT_DIR$/ch13_provider" />
+            <option value="$PROJECT_DIR$/ch15_network3" />
             <option value="$PROJECT_DIR$/ch3_view" />
             <option value="$PROJECT_DIR$/ch4_layout" />
             <option value="$PROJECT_DIR$/ch5_event" />
